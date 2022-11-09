@@ -1,0 +1,164 @@
+
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    border-style: none;
+    font-family: "Source Sans Pro"
+ }
+body div.header {
+	display:flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content:space-between ;
+	position:top;
+	top:0px;	
+	background-color:white;
+}
+div a img{
+	
+	width:150px;
+	height:100px;	
+}
+div.header button {
+	border-radius: 0.25em;
+	width: 100px;
+	height:40px;
+	font-size:17px;
+	background-color:#e5701a;
+	color:white;
+	border:#e5701a;
+	justify-content:flex-end;
+	margin-top:25px;
+	margin-right:25px;
+	
+}
+ul {
+	
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content:space-between ;
+}
+ul li {
+	font-weight:bold;
+	padding:30px;
+	list-style:none;
+}
+ul li a {
+	color:black;
+	list-style:none;
+	text-decoration: none;
+}
+.hero {
+	
+	background-image:url("../img/header-bike.jpg");
+	height:400px;
+	background-size:110% 110%;
+	color:white;
+	display:flex;
+	flex-direction: column ;
+	justify-content:center;
+	padding-left:30px;
+	margin:10px;
+	
+}
+
+.alert{
+    height: 50px;
+    border: 1px solid wheat;
+    border-left: 4px solid #C05326;
+    background-color:  #F7EAE4;
+	border-radius:3px;
+    padding: 15px;
+	margin:10px;
+	
+}
+.alert p{
+    margin-left: 10px;
+}
+.text-highlight{
+    color: #C05326;
+    font-weight: bold;
+    font-size: 17px;
+}
+.content {
+	display:flex;
+	margin-left:40px;
+	padding:30px;
+}
+.main{
+    flex-grow: 7;
+}
+.sidebar{
+    flex-grow: 3;
+	
+}
+.primary{
+		border-radius: 0.25em;
+	background-color:#e5701a;
+	color:white;
+	padding:12px;		
+}
+.secondary{
+	border-radius: 0.25em;
+	background-color:white;
+	color:#e5701a;
+	padding:12px;
+}
+ .btn1 {
+		display:flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-content:space-evenly;
+}
+.heading-underline{
+	background-color:white;
+	padding:16px;
+	border-bottom:4px solid;
+	border-bottom-color:#F7EAE4;
+}
+.article{
+		border:2px solid lightgrey;
+		padding:4px;
+		margin-right: 40px;
+}
+.art{
+	display:flex;
+	flex-direction:row;
+	
+}
+a{
+	color:#c05326;
+	font-style:bold;
+}
+div.article img {
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: center;
+	width: 20%;
+	height: 30%;
+}
+.article__thumbnail{
+	width:60px;
+	height:50px;
+	margin:15px;
+	margin-top:30px;
+	
+}
+.sidebar .article{
+	display:flex;
+	margin-right:23px;
+	margin-left:33px;
+	margin-top:33px;
+	margin-bottom:23px;
+}
+a.facebook-link {
+	float:right
+}
+.footer{
+	border-color:white;
+	border-top:2px solid  #f7eae4;
+	text-align:center;
+
+}
